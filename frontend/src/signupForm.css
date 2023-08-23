@@ -1,0 +1,27 @@
+.signup{
+    /* border: 1px solid black; */
+    display: flex;
+    /* width: 500px; */
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-content{
+    border: 1px solid black;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+    outline: none;
+  }
+  .button-div{
+    text-align: center;
+  }
+  .button-div>button{
+    width: 150px;
+    height: 25px;
+  }
